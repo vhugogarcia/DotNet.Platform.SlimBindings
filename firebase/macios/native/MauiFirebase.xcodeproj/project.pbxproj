@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46E0604B2BF3F72900254A1D /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 46E0604A2BF3F72900254A1D /* FirebaseCrashlytics */; };
+		46E0604D2BF3F76500254A1D /* MauiFIRCrashlytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E0604C2BF3F76500254A1D /* MauiFIRCrashlytics.swift */; };
 		D051A4BC2BD33D4600EC7F28 /* MauiFirebase.h in Headers */ = {isa = PBXBuildFile; fileRef = D051A4BB2BD33D4600EC7F28 /* MauiFirebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D051A4C32BD33D9100EC7F28 /* MauiFIRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051A4C22BD33D9100EC7F28 /* MauiFIRApp.swift */; };
 		D051A4C52BD33DB100EC7F28 /* MauiFIRMessaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051A4C42BD33DB100EC7F28 /* MauiFIRMessaging.swift */; };
@@ -17,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46E0604C2BF3F76500254A1D /* MauiFIRCrashlytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MauiFIRCrashlytics.swift; sourceTree = "<group>"; };
 		D051A4B82BD33D4600EC7F28 /* MauiFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MauiFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D051A4BB2BD33D4600EC7F28 /* MauiFirebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MauiFirebase.h; sourceTree = "<group>"; };
 		D051A4C22BD33D9100EC7F28 /* MauiFIRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MauiFIRApp.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0BECB2E2BD8381100CDDD0A /* FirebaseInstallations in Frameworks */,
+				46E0604B2BF3F72900254A1D /* FirebaseCrashlytics in Frameworks */,
 				D0BECB2C2BD833BA00CDDD0A /* FirebaseMessaging in Frameworks */,
 				D0BECB2A2BD833BA00CDDD0A /* FirebaseAnalytics in Frameworks */,
 			);
@@ -62,6 +66,7 @@
 				D051A4C22BD33D9100EC7F28 /* MauiFIRApp.swift */,
 				D051A4C42BD33DB100EC7F28 /* MauiFIRMessaging.swift */,
 				D051A4C62BD33DBB00EC7F28 /* MauiFIRAnalytics.swift */,
+				46E0604C2BF3F76500254A1D /* MauiFIRCrashlytics.swift */,
 			);
 			path = MauiFirebase;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 				D0BECB292BD833BA00CDDD0A /* FirebaseAnalytics */,
 				D0BECB2B2BD833BA00CDDD0A /* FirebaseMessaging */,
 				D0BECB2D2BD8381100CDDD0A /* FirebaseInstallations */,
+				46E0604A2BF3F72900254A1D /* FirebaseCrashlytics */,
 			);
 			productName = MauiFirebase;
 			productReference = D051A4B82BD33D4600EC7F28 /* MauiFirebase.framework */;
@@ -162,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D051A4C72BD33DBB00EC7F28 /* MauiFIRAnalytics.swift in Sources */,
+				46E0604D2BF3F76500254A1D /* MauiFIRCrashlytics.swift in Sources */,
 				D051A4C52BD33DB100EC7F28 /* MauiFIRMessaging.swift in Sources */,
 				D051A4C32BD33D9100EC7F28 /* MauiFIRApp.swift in Sources */,
 			);
@@ -409,6 +416,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		46E0604A2BF3F72900254A1D /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCrashlytics;
+		};
 		D0BECB292BD833BA00CDDD0A /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D0BECB282BD833BA00CDDD0A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
